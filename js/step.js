@@ -107,12 +107,23 @@ jQuery().ready(function() {
             parent.children(".skill-technology").each(function () {
                 $(this).children("input[type='checkbox']").prop('disabled', false);
             });
+            parent.children(".technology-sub").each(function () {
+                $(this).children(".skill-technology").each(function () {
+                    $(this).children("input[type='checkbox']").prop('disabled', false);
+                });
+            });
         } else {
             parent.find("input[type='input']").prop('disabled', true);
             parent.find("input[type='hidden']").prop('disabled', true);
             parent.children(".skill-technology").each(function () {
                 $(this).children("input[type='checkbox']").prop('disabled', true);
                 $(this).children("input[type='input']").prop('disabled', true);
+            });
+            parent.children(".technology-sub").each(function () {
+                $(this).children(".skill-technology").each(function () {
+                    $(this).children("input[type='checkbox']").prop('disabled', true);
+                    $(this).children("input[type='input']").prop('disabled', true);
+                });
             });
         }
     });

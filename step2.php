@@ -109,7 +109,7 @@
             <input disabled type="hidden" name="technology[4][name]" value="Java">Java
             <input disabled type="input" name="technology[4][value]"></input>
             </br>
-            <div>
+            <div class="technology-sub">
                 <label>Java frameworks</label>
                 <div class="skill-technology">
                     <input type="checkbox" class="check-box" disabled>
@@ -140,7 +140,7 @@
                     <span class="glyphicon glyphicon-plus"></span>
                 </button>
             </div>
-            <div>
+            <div class="technology-sub">
                 <label>Java application servers</label>
                 <div class="skill-technology">
                     <input type="checkbox" class="check-box" disabled>
@@ -177,7 +177,7 @@
             <input disabled type="hidden" name="technology[5][name]" value="PHP">PHP
             <input disabled type="input" name="technology[5][value]"></input>
             </br>
-            <div>
+            <div class="technology-sub">
                 <label>PHP Frameworks</label>
                 <div class="skill-technology">
                     <input type="checkbox" class="check-box" disabled>
@@ -213,7 +213,7 @@
                     <span class="glyphicon glyphicon-plus"></span>
                 </button>
             </div>
-            <div>
+            <div class="technology-sub">
                 <label>PHP based product developemnt</label>
                 <div class="skill-technology">
                     <input type="checkbox" class="check-box" disabled>
@@ -255,7 +255,7 @@
             <input disabled type="hidden" name="technology[6][name]" value="Python">Python
             <input disabled type="input" name="technology[6][value]"></input>
             </br>
-            <div>
+            <div class="technology-sub">
                 <label>Python frameworks</label>
                 <div class="skill-technology">
                     <input type="checkbox" class="check-box" disabled>
@@ -292,7 +292,7 @@
             <input disabled type="hidden" name="technology[7][name]" value="Ruby">Ruby
             <input disabled type="input" name="technology[7][value]"></input>
             </br>
-            <div>
+            <div class="technology-sub">
                 <label>Ruby frameworks</label>
                 <div class="skill-technology">
                     <input type="checkbox" class="check-box" disabled>
